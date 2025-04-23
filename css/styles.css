@@ -167,11 +167,11 @@ li {
 
 .action .container {
   background-color: #3882f6;
-  flex-basis: 900px;
+  flex-basis: 1000px;
   padding: 32px;
   border-radius: 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
