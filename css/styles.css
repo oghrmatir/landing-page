@@ -18,10 +18,12 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: center;
   background-color: #1f2937;
   padding: 16px 0;
+  gap: 16px;
 }
 
 .header .text {
@@ -45,18 +47,20 @@ li {
 
 .hero {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: center;
   padding: 60px 30px;
   background-color: #1f2937;
+  gap: 32px;
 }
 
-.primary {
+.hero .primary {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  flex-basis: 500px;
+  flex-basis: 400px;
   gap: 16px;
 }
 
@@ -81,7 +85,7 @@ li {
 }
 
 .hero .secondary {
-  flex-basis: 600px;
+  flex-basis: 400px;
   height: 250px;
   display: flex;
   justify-content: center;
@@ -106,6 +110,7 @@ li {
 
 .info .content {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 40px;
@@ -133,7 +138,8 @@ li {
 
 .quote {
   background-color: #e5e7eb;
-  padding: 80px 0;
+  padding: 80px 20px;
+  display: flex;
 }
 
 .quote .container {
@@ -142,7 +148,7 @@ li {
   justify-content: center;
   align-items: flex-end;
   gap: 20px;
-  width: 850px;
+  flex-basis: 850px;
   margin: 0 auto;
 }
 
@@ -159,7 +165,7 @@ li {
 }
 
 .action{
-  padding: 60px 0;
+  padding: 60px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
