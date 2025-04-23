@@ -157,3 +157,40 @@ li {
   font-size: 18px;
   font-weight: 700;
 }
+
+.action{
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action .container {
+  background-color: #3882f6;
+  flex-basis: 900px;
+  padding: 32px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.action .text {
+  font-size: 22px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+.action .subtext {
+  font-size: 18px;
+  color: #f9faf8;
+}
+
+.action .button {
+  background-color: #3882f6;
+  font-size: 18px;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  border-radius: 30px;
+  padding: 8px 24px;
+}
