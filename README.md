@@ -2,6 +2,8 @@
   <h1>Landing Page</h1>
 
   An Entire Web Page from a Design ([live preview](https://oghrmatir.github.io/landing-page/))
+
+  <img src="./img/cover.png" alt="Cover of Landing Page website">
 </div>
 
 ## About
@@ -11,13 +13,13 @@
 
 ## Showcase
 <div align="center">
-  <img src="./images/screenshots/sample-1.jpg" alt="Screenshot of sample page 1">
+  <img src="./img/screenshots/sample-1.jpg" alt="Screenshot of sample page 1">
   <p>This is a screenshot of the landing page.</p>
 
-  <img src="./images/screenshots/sample-2.jpg" alt="Screenshot of sample page 2">
-  <p>This is a screenshot of the landing page.</p>
+  <img src="./img/screenshots/sample-2.jpg" alt="Screenshot of sample page 2">
+  <p>This is another screenshot of the landing page.</p>
 
-  <img src="./images/demo/demo.gif" alt="Screen cast of landing-page">
+  <img src="./img/demo/demo.gif" alt="Screen cast of landing-page">
   <p>This is a screen cast of the website.</p>
 </div>
 
